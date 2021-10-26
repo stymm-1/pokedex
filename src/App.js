@@ -29,7 +29,7 @@ class App extends Component{
     
     return(
       <div className="App">
-        <a href="https://stym.netlify.app/" target="_blank"><h1 id="title">PokeDEX</h1></a>
+        <a href="https://stym.netlify.app/" target="_blank" rel="noreferrer"><h1 id="title">PokeDEX</h1></a>
           
           <SearchBox
             placeholder='Search Pokemon' 
