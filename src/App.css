@@ -1,0 +1,21 @@
+.App {
+    text-align: center;
+  }
+  
+  h1{
+    font-family: 'Gugi', cursive;
+    font-size: 3rem;
+  }
+  
+  h4{
+    font-family: 'Gugi', cursive;
+    cursor: pointer;
+    border: 1px solid black;
+    width: 55px;
+    height: 55px;
+    float: left;
+    background-image: url("./logo.png");
+  }
+#title{
+  color: #ffd04f !important;
+}

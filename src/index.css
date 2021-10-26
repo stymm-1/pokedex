@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  cursor:url(https://emoji.gg/assets/emoji/6419_great_pokeball.png), auto;
+  background-color: #3b3b3b;
+}
+
+
+body::-webkit-scrollbar {
+  width: 1.5em;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #00bd9b;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color:#ffd04f;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid orange;  /* creates padding around scroll thumb */
+  cursor: pointer;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
